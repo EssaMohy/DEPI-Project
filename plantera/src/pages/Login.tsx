@@ -5,28 +5,15 @@ const Login = () => {
   return (
     <div className="login-page">
       <div className="login-card">
-
         <h1 className="title">Plantera</h1>
 
-        <p className="subtitle">
-          Welcome back, please login
-        </p>
+        <p className="subtitle">Welcome back, please login</p>
 
-        <input
-          type="email"
-          placeholder="Email"
-          className="input"
-        />
+        <input type="email" placeholder="Email" className="input" />
 
-        <input
-          type="password"
-          placeholder="Password"
-          className="input"
-        />
+        <input type="password" placeholder="Password" className="input" />
 
-        <button className="btn">
-          Login
-        </button>
+        <button className="btn">Login</button>
 
         <p className="footer-text">
           Don’t have an account?{" "}
@@ -34,7 +21,6 @@ const Login = () => {
             Register
           </Link>
         </p>
-
       </div>
     </div>
   );
