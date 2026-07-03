@@ -1,0 +1,16 @@
+[submodule "frontend"]
+	path = apps/web
+	url = git@github.com:EssaMohy/DEPI-Front.git
+	branch = main
+
+[submodule "plant-analyzer"]
+	path = apps/plant-analyzer
+	url = git@github.com:Lime0x00/plant-analyzer.git
+	branch = main
+[submodule "backend"]
+	path = apps/backend
+	url = git@github.com:Lime0x00/plantera-api.git
+	branch = main
+[submodule "apps/plant-analyzer"]
+	path = apps/plant-analyzer
+	url = git@github.com:Lime0x00/plant-analyzer.git
