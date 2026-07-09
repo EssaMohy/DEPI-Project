@@ -142,7 +142,7 @@ This repo uses Git submodules. Each submodule can be worked on independently:
 
 | Submodule | Repo | Branch |
 |-----------|------|--------|
-| `apps/backend` | plantera-api.git | `docker-only` |
+| `apps/backend` | plantera-api.git | `plan-1-docker-fixes` |
 | `apps/plant-analyzer` | plant-analyzer.git | `plan-1-docker-fixes` |
 | `apps/web` | DEPI-Front.git | `plan-1-docker-fixes` |
 
@@ -150,9 +150,9 @@ To work on a submodule:
 
 ```bash
 cd apps/backend
-git checkout docker-only
+git checkout plan-1-docker-fixes
 # make changes
-git push origin docker-only
+git push origin plan-1-docker-fixes
 ```
 
 ## Local Development (Without Docker)
