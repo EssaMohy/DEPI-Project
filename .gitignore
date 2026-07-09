@@ -9,3 +9,4 @@ logs/
 *.log
 .eslintcache
 public/uploads/
+.vscode/
