@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+.env.*
+*.tar.gz
+*.zip
+.DS_Store
+logs/
+*.log
+.eslintcache
+public/uploads/

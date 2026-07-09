@@ -1,0 +1,9 @@
+# Full-stack development mode with hot-reload.
+# Usage: docker compose -f docker-compose.dev.yml up -d --build
+include:
+  - apps/backend/compose.yml
+  - apps/backend/compose.override.yml
+  - apps/web/compose.yml
+  - apps/web/compose.override.yml
+  - apps/plant-analyzer/compose.yml
+  - apps/plant-analyzer/compose.override.yml
