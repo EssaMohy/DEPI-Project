@@ -1,7 +1,7 @@
 [submodule "backend"]
 	path = apps/backend
 	url = git@github.com:Lime0x00/plantera-api.git
-	branch = docker-only
+	branch = plan-1-docker-fixes
 
 [submodule "plant-analyzer"]
 	path = apps/plant-analyzer
